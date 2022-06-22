@@ -70,3 +70,8 @@ constan de un título y una extensión.
 
 ● Para cada revista, almacenaremos información de cada ejemplar, que incluirá la
 fecha, número de páginas y el número de ejemplares vendidos.
+
+#### Diagrama Modelo Entidad Relación.
+
+![dIAGRAMA mer](https://user-images.githubusercontent.com/103280092/175123796-1aca8493-6a49-4a84-94ef-d285b383e6f1.png)
+
