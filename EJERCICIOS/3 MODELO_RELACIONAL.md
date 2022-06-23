@@ -12,4 +12,7 @@ El concesionario también se encarga de llevar a cabo las revisiones que se real
 cada coche. Cada revisión tiene asociado un código que se incrementa automáticamente
 por cada revisión que se haga. De cada revisión se desea saber si se ha hecho cambio de
 filtro, si se ha hecho cambio de aceite, si se ha hecho cambio de frenos u otros. Los
-coches pueden pasar varias revisiones en el concesionario
+coches pueden pasar varias revisiones en el concesionario.
+
+![image](https://user-images.githubusercontent.com/103280092/175327128-60a48400-976b-488d-b997-90b63676f71b.png)
+
