@@ -1,6 +1,6 @@
 En la BD utilizada en clase realiza las siguientes consultas:
 
-https://www.db-fiddle.com/f/or2rUwTQ6f2ozgPbtx1dMi/1
+https://www.db-fiddle.com/f/or2rUwTQ6f2ozgPbtx1dMi/2
 
 * La tabla empleado:
 
