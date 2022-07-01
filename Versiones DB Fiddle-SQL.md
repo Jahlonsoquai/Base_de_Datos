@@ -10,9 +10,16 @@ DB Paquetería
 
 https://www.db-fiddle.com/f/pcKKVK2bFLUpWvVwbcc1sB/0
 
+DB Tienda_Tecnología
+
+https://www.db-fiddle.com/f/f7hdkCgDcoxrx8wdyJNx1i/1
+
 DB Editorial
 
 https://www.db-fiddle.com/f/JRLXn7fRkutFfzw31KFqS/0
 
 DB Tienda
+
 https://www.db-fiddle.com/f/w9Gks9mcn2YZrsWfbLRBji/1
+
+https://www.db-fiddle.com/f/w9Gks9mcn2YZrsWfbLRBji/2
