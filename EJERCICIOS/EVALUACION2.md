@@ -17,6 +17,9 @@ Ejercicio:
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
+     Delete elimina los registros ipso facto.
+     Truncate elimina cautelosamente registro por registro.
+
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
 
     Se usa en los campos que requieran datos que no se puedan, ni se deban repetir.
