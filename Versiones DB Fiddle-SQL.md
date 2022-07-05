@@ -23,3 +23,7 @@ DB Tienda
 https://www.db-fiddle.com/f/w9Gks9mcn2YZrsWfbLRBji/1
 
 https://www.db-fiddle.com/f/w9Gks9mcn2YZrsWfbLRBji/2
+
+Ejemplo Trigger
+
+https://www.db-fiddle.com/f/4riY2SUQCyzEecKpwGTnnR/1
