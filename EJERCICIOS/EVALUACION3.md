@@ -22,7 +22,7 @@ Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la ge
 
 #### Ejercicio:
 
-La liga de la base es: https://www.db-fiddle.com/f/f7hdkCgDcoxrx8wdyJNx1i/2
+La liga de la base es: https://www.db-fiddle.com/f/f7hdkCgDcoxrx8wdyJNx1i/3
 
 1. Calcula el número total de productos que hay en la tabla productos. (valor 4.5)
 
@@ -62,11 +62,11 @@ precio medio y el número total de productos de los fabricantes que tienen un pr
 medio superior a 200€. Es necesario mostrar el nombre del fabricante. (valor 4.5)
 
           USE tienda_tecnología;
+          USE tienda_tecnología;
           SELECT nombre_marca, COUNT(nombre_marca), MAX(precio), MIN(precio), AVG(precio)
           FROM producto
           INNER JOIN profab ON producto.codigo_producto=profab.codigo_producto1
           INNER JOIN fabricante ON profab.id_fabricante1=fabricante.id_fabricante
-          WHERE precio>200
-          GROUP BY (nombre_marca);
-
+          GROUP BY (nombre_marca)
+          HAVING MAX(precio)>200;
 
