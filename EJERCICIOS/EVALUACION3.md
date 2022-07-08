@@ -13,8 +13,11 @@ Es un tipo de sistema de gestión de datos diseñado para habilitar y dar soport
           
 2. Realiza un diseño del modelo en estrella (valor 2)
 
+![image](https://user-images.githubusercontent.com/103280092/177903844-18d91709-43da-428c-88f3-05c5072abc5e.png)
+
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
+![image](https://user-images.githubusercontent.com/103280092/177903423-16b3f040-0702-436f-9a22-d00de2bafe75.png)
 
 ## Práctica 7
 ### Funciones en SQL
