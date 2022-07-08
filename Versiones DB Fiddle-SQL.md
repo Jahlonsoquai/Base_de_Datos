@@ -12,7 +12,7 @@ https://www.db-fiddle.com/f/pcKKVK2bFLUpWvVwbcc1sB/0
 
 DB Tienda_Tecnología
 
-https://www.db-fiddle.com/f/f7hdkCgDcoxrx8wdyJNx1i/2
+https://www.db-fiddle.com/f/f7hdkCgDcoxrx8wdyJNx1i/3
 
 DB Editorial
 
