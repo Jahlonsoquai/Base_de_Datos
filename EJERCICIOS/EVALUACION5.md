@@ -6,7 +6,7 @@ Evaluación: Para poder tener correcto cada ejercicio deberán de mostrar el res
 
 #### Las consultas se pueden realizar en el Playround DB: 
 
-https://www.db-fiddle.com/f/i7BMoRZmZUbvFPcvh75G1v/0
+https://www.db-fiddle.com/f/i7BMoRZmZUbvFPcvh75G1v/1
 
 Lista el nombre de todos los productos que hay en la tabla producto.
 
