@@ -4,8 +4,11 @@ Objetivo: Demostrar las operaciones que se realizan en una base de datos, aplica
 
 Evaluación: Para poder tener correcto cada ejercicio deberán de mostrar el resultado que se da en cada respuesta.
 
-Lista el nombre de todos los productos que hay en la tabla producto.
+#### Las consultas se pueden realizar en el Playround DB: 
 
+https://www.db-fiddle.com/f/i7BMoRZmZUbvFPcvh75G1v/0
+
+Lista el nombre de todos los productos que hay en la tabla producto.
 
 1. Lista los nombres y los precios de todos los productos de la tabla producto.
 
@@ -38,14 +41,48 @@ todos los productos de la base de datos.
 Subconsultas (En la cláusula WHERE)
 1. Devuelve todos los productos del fabricante Lenovo. (Sin utilizar INNER
 JOIN).
+        
+        USE tienda_tecnología;
+        SELECT * FROM fabricante 
+        WHERE id_fabricante IN 
+        (SELECT id_fabricante1 FROM profab WHERE nombre_marca='LENOVO'); 
+        
+        SELECT * FROM producto 
+        WHERE codigo_producto IN 
+        (SELECT codigo_producto1 FROM profab WHERE id_fabricante1=5);
 
+![image](https://user-images.githubusercontent.com/103280092/178093990-8009c328-8100-4a4b-8cc3-700959f4936b.png)
         
 2. Devuelve todos los datos de los productos que tienen el mismo precio que el
 producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
+        USE tienda_tecnología;
+        SELECT * FROM producto WHERE precio IN
+        (SELECT MAX(precio) FROM producto WHERE codigo_producto IN
+        (SELECT codigo_producto1 FROM profab WHERE id_fabricante1=05));
+
+![image](https://user-images.githubusercontent.com/103280092/178095084-b3b46107-a6c0-495b-9873-ddf355fd8688.png)
 
 
 3. Lista el nombre del producto más caro del fabricante Lenovo.
 
+        USE tienda_tecnología;
+        SELECT MAX(precio)
+        FROM producto 
+        WHERE codigo_producto IN 
+        (SELECT codigo_producto1 
+        FROM profab 
+        WHERE id_fabricante1=05);
 
-https://www.db-fiddle.com/f/i7BMoRZmZUbvFPcvh75G1v/0
+        SELECT nombre, MAX(precio)
+        FROM producto 
+        WHERE codigo_producto IN 
+        (SELECT codigo_producto1 
+        FROM profab 
+        WHERE id_fabricante1=05)
+        GROUP BY (nombre)
+        HAVING MAX(precio)>=559.2;
+
+![image](https://user-images.githubusercontent.com/103280092/178096599-a78958eb-a671-4a4b-afa4-a284729d9516.png)
+
+
